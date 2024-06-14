@@ -1,0 +1,60 @@
+.pageContainer {
+  background-color: #d8e3d3;
+  background-image: url("../public/background2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 40px;
+  border-radius: 20px;
+  min-height: 100vh; /* Ensure the container takes up the full viewport height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center any child elements horizontally */
+  align-items: center; /* Center any child elements vertically */
+}
+
+.title {
+  color: #0a2b0f;
+  font-size: xx-large;
+  font-weight: bold;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.descriptionContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.description {
+  color: #0a2b0f;
+  background-color: rgba(255, 255, 255, 0.8);
+  font-size: large;
+  margin: 30px;
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.circleContainer {
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+  justify-content: space-evenly;
+}
+
+.buttonContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.button {
+  padding: 20px;
+  margin: 0 20px;
+  background-color: #db4321;
+  border-radius: 10px;
+  color: white;
+}

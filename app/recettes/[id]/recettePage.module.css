@@ -1,0 +1,24 @@
+.commentContainer {
+  margin: 0 20px; /* Adjust the margin values as needed */
+  display: flex;
+  flex-direction: column; /* Ensure comments are stacked vertically */
+  width: 90%;
+}
+
+.title {
+  font-size: 1.5rem;
+  padding-bottom: 20px;
+}
+
+.card {
+  border-radius: 10px; /* Adjust the radius value as needed */
+  border: 1px solid #ccc; /* Add a border for better visibility */
+  margin-bottom: 20px; /* Add margin between comment cards */
+  padding: 20px; /* Add padding for content inside the card */
+}
+
+.aucun {
+  font-size: 1.5rem;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}

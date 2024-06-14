@@ -1,0 +1,69 @@
+/* RecipeCard.module.css */
+
+.recipeCard {
+  display: flex;
+  margin-bottom: 20px;
+  background-color: #bdffca;
+  border-radius: 15px;
+  padding: 10px;
+  /* Add styles for the recipe card */
+}
+
+.recipeCard:hover {
+  transform: scale(1.02);
+  background-color: #9bd1a5;
+}
+
+.image {
+  width: 200px; /* Adjust as needed */
+  height: 200px; /* Adjust as needed */
+  margin-right: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+  object-fit: cover;
+  /* Add styles for the recipe image */
+}
+
+.details {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* Add styles for the recipe details */
+}
+
+.nom {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  /* Add styles for the recipe title */
+}
+
+.description {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.type,
+.temps,
+.difficulte,
+.cuisine {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-right: 70px;
+}
+.tagTitle {
+  font-weight: 700;
+}
+
+.tags {
+  display: flex;
+  flex-direction: row;
+  margin-left: 20px;
+  margin-top: 30px;
+
+  /* Add styles for the tags container */
+}

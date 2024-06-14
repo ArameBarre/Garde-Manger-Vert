@@ -1,0 +1,134 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 94%;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 3rem;
+  color: #333;
+  display: flex;
+  align-items: center;
+}
+
+.title h1 {
+  margin-right: 20px; /* Adjust the margin as needed */
+}
+
+.favoriteToggle {
+  margin-left: auto; /* Push FavoriteToggle to the right */
+}
+
+.heart {
+  font-size: 5.5rem; /* Increase the font size for the heart icon */
+}
+
+.recipeDetails {
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+}
+.image {
+  width: 600px;
+  border-radius: 10px;
+}
+
+.info {
+  margin: 0 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.tagTitle {
+  font-weight: 700;
+}
+
+.tags {
+  display: flex;
+  flex-direction: row;
+  margin-left: 20px;
+  margin-top: 30px;
+  gap: 1.5rem;
+  text-align: center;
+
+  /* Add styles for the tags container */
+}
+
+.type,
+.temps,
+.difficulte,
+.cuisine {
+  border-radius: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 12px;
+}
+
+.type {
+  background-color: antiquewhite;
+}
+
+.temps {
+  background-color: rgb(211, 186, 194);
+}
+
+.difficulte {
+  background-color: #add8e6;
+}
+
+.cuisine {
+  background-color: #90ee90;
+}
+
+.description {
+  font-size: large;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.ingredientsTitle {
+  font-weight: 700;
+  font-size: large;
+  margin: 5px;
+}
+
+.ingredients {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.ingredientsList {
+  list-style-type: disc; /* Use 'disc' for filled bullet points */
+  margin-left: 40px;
+}
+
+.instructionsTitle {
+  font-weight: 700;
+  font-size: large;
+  margin: 5px;
+  margin-top: 10px;
+}
+
+.instructionsList {
+  list-style: none; /* Remove default numbering */
+  counter-reset: item; /* Reset counter */
+  padding-left: 0; /* Remove default padding */
+}
+
+.instructionsList li {
+  margin-bottom: 0.5em; /* Adjust spacing between list items */
+  display: flex; /* Use flexbox for alignment */
+}
+
+.instructionsList li::before {
+  content: counter(item) ". "; /* Use counter to generate numbers with a period */
+  counter-increment: item; /* Increment counter for each item */
+  min-width: 2em; /* Set a minimum width for the numbers */
+  margin-right: 0.5em; /* Add margin between numbers and text */
+}

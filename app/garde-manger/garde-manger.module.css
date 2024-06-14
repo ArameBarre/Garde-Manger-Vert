@@ -1,0 +1,30 @@
+.titleContainer {
+  display: flex;
+  flex-direction: column;
+  font-size: larger;
+  padding: 30px;
+  margin: 30px;
+  background-color: cornsilk;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.aucun {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 100px;
+  height: 500px;
+  font-size: large;
+}
+
+.recipesContainer {
+  padding: 30px;
+}

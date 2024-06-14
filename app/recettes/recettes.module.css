@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 800px;
+}
+
+.pageContainer {
+  flex: 1; /* This ensures that the pageContainer takes up the remaining space */
+  display: flex; /* Use flexbox for layout */
+  flex-direction: column; /* Arrange children vertically */
+  padding-left: 20%; /* Match the width of the filter bar */
+  padding-right: 20px; /* Add padding to the right */
+}
+
+.title {
+  font-size: larger;
+  padding: 30px;
+  margin: 30px;
+  background-color: cornsilk;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.recipeList {
+  margin: 0 30px;
+  flex: 1;
+}
+
+.filterBar {
+  margin-top: auto; /* Push the FilterBar to the bottom of its container */
+}

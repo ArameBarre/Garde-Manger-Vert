@@ -1,0 +1,65 @@
+/* FilterBar.module.css */
+
+/* FilterBar.module.css */
+
+.filterBar {
+  position: absolute;
+  top: calc(
+    176px + 100px
+  ); /* Adjust the value based on the height of the top section (.title) and any desired margin */
+  left: 10px; /* Adjust the left offset as needed */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: calc(
+    99vh - 80px
+  ); /* Adjust the height to fill the remaining viewport height after considering the top section height and margin */
+  width: 20%;
+  background-color: #e05a1f;
+  border-radius: 5px;
+  overflow-y: auto; /* Enable vertical scrolling if needed */
+  z-index: 1; /* Ensure the filter bar is above other content */
+}
+
+.sticky {
+  position: fixed;
+  top: 20px; /* Adjust the top offset as needed */
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin-right: 20px;
+  padding: 10px 10px;
+}
+
+.sectionTitle {
+  display: flex;
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  justify-content: center;
+}
+
+.filterBtn {
+  display: block;
+  width: 100%;
+  padding: 5px 5px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+  color: #333;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.filterBtn:hover {
+  background-color: #ddd;
+}
+
+.selected {
+  background-color: #347d43;
+  color: #fff;
+}

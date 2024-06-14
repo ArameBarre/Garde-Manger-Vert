@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind utilities;
+
+:root {
+  --bg: #fff;
+  --bgSoft: #eaeaea;
+  --text: #000;
+  --textSoft: #777777;
+  --btn: #9025f5;
+}
+
+body {
+  color: var(--text);
+  background-color: var(--bg);
+}
+
+.container {
+  width: 100wh;
+  margin: 0;
+  /*padding-left: 50px;
+  padding-right: 50px;*/
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

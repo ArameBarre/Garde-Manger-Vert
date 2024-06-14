@@ -1,0 +1,20 @@
+.circle {
+  display: flex;
+  flex-direction: column;
+  padding: 18px;
+  color: #0a2b0f;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  align-items: center;
+  text-align: center;
+}
+
+.circle:hover {
+  transform: scale(1.1);
+}
+
+.img {
+  max-width: 50px;
+}

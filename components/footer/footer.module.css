@@ -1,0 +1,9 @@
+.footerContainer {
+  padding: 1rem;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  background-image: linear-gradient(to top, #347d43, #347d43);
+}

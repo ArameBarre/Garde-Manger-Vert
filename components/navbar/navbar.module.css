@@ -1,0 +1,21 @@
+.container {
+  padding: "2rem";
+  background-image: linear-gradient(to top, #347d43, #347d43);
+  color: var(--bg);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  min-height: 100px;
+}
+
+.titre {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.logo {
+  width: 180px;
+  border-radius: 10px;
+}

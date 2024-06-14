@@ -1,0 +1,48 @@
+.title {
+  font-size: 2rem;
+  margin-left: 40px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  margin: 40px;
+  gap: 1rem;
+  width: 90%;
+}
+
+.input {
+  background-color: cornsilk;
+  border-radius: 10px;
+  width: 100%;
+  padding: 10px;
+}
+
+.label {
+  padding-bottom: 40px;
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+}
+
+.button {
+  background-color: #e05a1f;
+  color: antiquewhite;
+  font-size: 1.4rem;
+  width: 25%; /* Adjust button width to fit its content */
+  align-self: center; /* Center the button horizontally */
+  border-radius: 15px;
+  padding: 10px 20px; /* Add padding to the button */
+  margin-top: 20px; /* Add some vertical space above the button */
+}
+
+.selectContainer {
+  gap: 2rem;
+}
+
+.select {
+  background-color: antiquewhite;
+  font-size: 1.2rem;
+  padding: 10px;
+  margin-left: 40px;
+  border-radius: 10px;
+}

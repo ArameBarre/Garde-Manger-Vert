@@ -1,0 +1,107 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 43%;
+  background-color: #bdffca;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+.searchContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.searchBar {
+  margin: 20px;
+  height: 40px;
+  width: 450px;
+  padding: 10px;
+}
+
+.selectBar {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+.select {
+  padding: 10px;
+}
+
+.ingredientsContainer {
+  padding: 30px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.ingredient {
+  display: flex;
+  height: 100px;
+  width: 100px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  margin: 5px;
+  padding: 5px;
+  font-size: small;
+}
+
+.Pains {
+  background-color: #ced2ba; /* Neutral gray */
+}
+
+.Riz {
+  background-color: #f9ddcf; /* Light gray */
+}
+
+.Pâtes {
+  background-color: #ffe4b5; /* Gray */
+}
+
+.Fruits {
+  background-color: #eabcac;
+}
+
+.Légumes {
+  background-color: #98fb98;
+}
+
+.Légumineuses {
+  background-color: #dcb6af;
+}
+
+.Noix-et-graines {
+  background-color: #f5f5dc;
+}
+
+.Produits-laitiers {
+  background-color: #e0ffff;
+}
+
+.Sauces-et-condiments {
+  background-color: peachpuff;
+}
+
+.Soupes {
+  background-color: lavenderblush;
+}
+
+.Huiles-vinaigres-et-sirops {
+  background-color: rosybrown;
+}
+
+.Desserts {
+  background-color: oldlace;
+}
+
+.Garnitures {
+  background-color: #d0ba98;
+}
+
+.Herbes-et-épices {
+  background-color: #fff5e6;
+}
